@@ -1,14 +1,14 @@
 [harvest]
-from = [ "git", "cff" ]
+from = [ "git", "cff",]
 
 [deposit]
 mapping = "invenio"
 target = "invenio"
 
+[postprocess]
+execute = [ "config_record_id",]
+
 [deposit.invenio]
 site_url = "https://sandbox.zenodo.org"
 access_right = "open"
-
-[postprocess]
-execute = [ "config_record_id" ]
-
+record_id = 1205560
