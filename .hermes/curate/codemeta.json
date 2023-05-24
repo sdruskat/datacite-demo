@@ -1,0 +1,52 @@
+{
+  "contributor": [
+    {
+      "@type": "Person",
+      "name": "Stephan Druskat",
+      "email": "sdruskat@users.noreply.github.com",
+      "hermes:contributionRole": [
+        {
+          "@type": "Role",
+          "roleName": "git author",
+          "startTime": "2023-05-24T11:13:45+02:00",
+          "endTime": "2023-05-24T11:13:45+02:00"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "hermes:contributionRole": [
+        {
+          "@type": "Role",
+          "roleName": "git committer",
+          "startTime": "2023-05-24T11:13:45+02:00",
+          "endTime": "2023-05-24T11:13:45+02:00"
+        }
+      ]
+    }
+  ],
+  "hermes:gitBranch": "main",
+  "@context": [
+    "https://doi.org/10.5063/schema/codemeta-2.0",
+    {
+      "hermes": "https://software-metadata.pub/ns/hermes/"
+    }
+  ],
+  "@type": "SoftwareSourceCode",
+  "author": [
+    {
+      "@id": "https://orcid.org/0000-0003-4925-7248",
+      "@type": "Person",
+      "familyName": "Druskat",
+      "givenName": "Stephan"
+    }
+  ],
+  "codeRepository": "https://github.com/sdruskat/datacite-demo",
+  "datePublished": "2023-05-23",
+  "license": "https://spdx.org/licenses/CC0-1.0",
+  "name": "datacite-demo (demo repository to show the HERMES worfklow)",
+  "url": "https://github.com/sdruskat/datacite-demo",
+  "version": "2"
+}
