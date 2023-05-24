@@ -11,4 +11,4 @@ execute = [ "config_record_id",]
 [deposit.invenio]
 site_url = "https://sandbox.zenodo.org"
 access_right = "open"
-record_id = 1205714
+record_id = 1205723
